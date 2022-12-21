@@ -40,3 +40,11 @@ class Blockchain {
         return this.blocks;
     }
 }
+
+const blockchain = new Blockchain();
+
+blockchain.addBlock("첫번째");
+blockchain.addBlock("두번째");
+blockchain.addBlock("세번째");
+
+console.log(blockchain.getBlocks());
